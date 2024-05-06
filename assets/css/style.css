@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+/* Font is "Sedgwick Ave */
+
 body {
     background-color: red;
+    color: pink;
+    font-weight: bold;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
+
+h1 {
+    font-size: 3.5rem;
+    color: pink;
+    margin-top: -10px;
+    font-family: "Sedgwick Ave", sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: "Sedgwick Ave", sans-serif;
+}
+
+.back-button {
+    /*display: block; 
+    margin-left: auto;
+    margin: auto; */
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#image-instructions {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
