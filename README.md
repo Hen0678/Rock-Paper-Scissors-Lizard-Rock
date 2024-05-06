@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors, Lizard, Rock
 
-[View the live project here]
+[View the live project here](https://hen0678.github.io/Rock-Paper-Scissors-Lizard-Spock/index.html)
 
 ## Overview
 This Rock, Paper, Scissors, Lizard, Spock game is a twist on the classic Rock, Paper, Scissors. First seen in the Big Bang Theory, users can choose one of five options and the computer will randomly generate an option. The user's choice will be two of the remaining choices, lost to two and draw with one. To make the game more interesting a scoreboard will keep track of the score. 
