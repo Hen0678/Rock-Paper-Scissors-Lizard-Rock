@@ -18,7 +18,7 @@ As a user of this site, I want to:
 ### Content
 The content has been accumulated from the following sites:
 * Favicon icons - flatiron.com (https://www.flaticon.com/free-icons/rock-paper-scissors)
-
+* Rock, Paper, Scissors, Lizard, Spock image (https://akshaybahadur.medium.com/rock-paper-scissors-lizard-spock-%EF%B8%8F-514f0a2b8c1a)
 
 
 
