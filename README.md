@@ -7,7 +7,6 @@ This Rock, Paper, Scissors, Lizard, Spock game is a twist on the classic Rock, P
 
 The game includes a landing page with links to an instructions page or the game itself. A computer game theme background has been added along with some retro CSS styling. 
 
-
 ## User Experience (UX)  
 As a user of this site, I want to: 
 * Easily understand the main purpose of the site.
@@ -15,7 +14,10 @@ As a user of this site, I want to:
 * I want a game that is visually appealing and fun.
 * I want to be able to easily track score. 
 
-
+## Credits
+### Content
+The content has been accumulated from the following sites:
+* Favicon icons - flatiron.com (https://www.flaticon.com/free-icons/rock-paper-scissors)
 
 
 
