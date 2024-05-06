@@ -14,6 +14,13 @@ As a user of this site, I want to:
 * I want a game that is visually appealing and fun.
 * I want to be able to easily track score. 
 
+## Testing
+
+### Bugs
+|Bug|Description|Solution applied|Result|
+|:----|:----|:----|:----|
+|Results table not displaying correctly|The results table shows the score below the player / computer and not to the right|Additional Div element required |Now displaying correctly|
+
 ## Credits
 ### Content
 The content has been accumulated from the following sites:
