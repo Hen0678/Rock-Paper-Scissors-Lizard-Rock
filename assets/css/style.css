@@ -93,4 +93,40 @@ h2 {
     border-radius: 25%;
 }
 
+#playerResult, #computerResult {
+    font-size: 2rem;
+    background-color: black;
+}    
 
+#finalResult {
+    font-size: 5rem;
+    margin: 30px;
+   
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    padding: 5px;
+  }
+.grid-item {
+    background-color: black;
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+#overallPlayerTotal {
+    color: green;
+    /* align-items: end; */
+}
+
+#overallComputerTotal {
+    color: red;
+}
+
+#overallTieTotal {
+    color: white;
+}
