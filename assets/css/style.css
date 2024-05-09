@@ -2,7 +2,6 @@
 /* Font is "Sedgwick Ave */
 
 body {
-    background-color: red;
     color: pink;
     font-weight: bold;
     margin: 0px;
@@ -31,29 +30,24 @@ h2 {
     font-family: "Sedgwick Ave", sans-serif;
 }
 
-#game-test {
+#instructions {
     background-color: black;
     text-align: center;
-    /*border-style: solid; */
     display: flex;
     padding: 2px;
 }
 
 #game-rules {
+    max-width: 100%;
     margin-top: auto;
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: arial, sans-serif;
     padding: 5px;
     margin-bottom: 10px;
     margin-top: -15px;
 }
 
-
-
 .back-button {
-    /*display: block; 
-    margin-left: auto;
-    margin: auto; */
     margin-left: 10px;
     margin-top: 5px;
     width: 100%;
@@ -113,7 +107,6 @@ h2 {
     font-size: 12.5rem;
     cursor: pointer;
     max-width: 66%;
-    /* transition: background-color 2s ease-out; */
     text-align: center;
     background-color: black;
     border-radius: 25%;
@@ -135,7 +128,7 @@ h2 {
     grid-template-columns: auto auto;
     background-color: white;
     padding: 5px;
-  }
+}
 
   .grid-item {
     background-color: black;
