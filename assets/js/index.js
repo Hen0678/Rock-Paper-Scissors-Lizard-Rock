@@ -14,6 +14,7 @@ let tieScore = 0;
 function selectChoice(playerChoice) {
     // Creates a randon computer choice between 1-5 which correlates to rock, paper, scissors, Lizard or Spock    
     const computerChoice = choices[Math.floor(Math.random() * 5)];
+    // Result of the computer choice
     let result = "";
 
     if (playerChoice === computerChoice) {
@@ -40,9 +41,10 @@ function selectChoice(playerChoice) {
 
         }
     }
-
+    // Display the player choice and computer choice
     playerResult.textContent = `${playerChoice}`;
     computerResult.textContent = `${computerChoice}`;
+    // Displays YOU WIN!, YOU LOSE! or IT'S A TIE
     finalResult.textContent = result;
 
     // Removes the green, red or white text when a new guess is selected
