@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon-->
+    <!--Need to add search engine key words-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -25,11 +26,11 @@
 
         <!-- R,P,S,L,S game icons-->
         <div>
-            <i id="rock" class="fa-solid fa-hand-back-fist"></i>
-            <i id="plane"class="fa-solid fa-hand"></i>
-            <i id="scissors" class="fa-solid fa-hand-scissors"></i>
-            <i id="lizard" class="fa-solid fa-hand-lizard"></i>
-            <i id="spock" class="fa-solid fa-hand-spock"></i>
+            <i id="rock" class="fa-solid fa-hand-back-fist" onclick="selectChoice('Rock')"></i>
+            <i id="plane"class="fa-solid fa-hand" onclick="selectChoice('Paper')"></i>
+            <i id="scissors" class="fa-solid fa-hand-scissors" onclick="selectChoice('Scissors')"></i>
+            <i id="lizard" class="fa-solid fa-hand-lizard" onclick="selectChoice('Lizard')"></i>
+            <i id="spock" class="fa-solid fa-hand-spock" onclick="selectChoice('Spock')"></i>
         </div>
         <!--Displays result of game-->
         <h2>Result</h2>
