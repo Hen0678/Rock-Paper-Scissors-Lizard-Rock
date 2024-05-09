@@ -16,42 +16,41 @@
 <body>
 
     <div class="back-button">
-        <a href="index.html">   
-        <button type="button">Go back</button>
+        <a href="index.html">
+            <button type="button">Go back</button>
         </a>
     </div>
 
     <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
     <h2>Make your choice!</h2>
 
-        <!-- R,P,S,L,S game icons-->
-        <div>
-            <i id="rock" class="fa-solid fa-hand-back-fist" onclick="selectChoice('Rock')"></i>
-            <i id="plane"class="fa-solid fa-hand" onclick="selectChoice('Paper')"></i>
-            <i id="scissors" class="fa-solid fa-hand-scissors" onclick="selectChoice('Scissors')"></i>
-            <i id="lizard" class="fa-solid fa-hand-lizard" onclick="selectChoice('Lizard')"></i>
-            <i id="spock" class="fa-solid fa-hand-spock" onclick="selectChoice('Spock')"></i>
-        </div>
-        <!--Displays result of game-->
-        <h2>Result</h2>
-        <div id="playerResult">Player:</div>
-        <div id="computerResult">Computer:</div>
-        <div id="finalResult"></div>
-        <!--Score board-->
-        <h2>Score</h2>
-        <div class="grid-container">
-            <div class="grid-item">Player Score:</div>
-            <div class="grid-item">
-                <span id="overallPlayerTotal">0</span>
-            </div>
-            <div class="grid-item">Computer Score:</div>
-            <div class="grid-item">
-                <span id="overallComputerTotal">0</span>
-            </div>  
-            <div class="grid-item">Tie Score:</div>
-            <div class="grid-item">
-                <span id="overallTieTotal">0</span>
-            </div>
+    <!-- R,P,S,L,S game icons-->
+    <div>
+        <i id="rock" class="fa-solid fa-hand-back-fist" onclick="selectChoice('Rock')"></i>
+        <i id="plane" class="fa-solid fa-hand" onclick="selectChoice('Paper')"></i>
+        <i id="scissors" class="fa-solid fa-hand-scissors" onclick="selectChoice('Scissors')"></i>
+        <i id="lizard" class="fa-solid fa-hand-lizard" onclick="selectChoice('Lizard')"></i>
+        <i id="spock" class="fa-solid fa-hand-spock" onclick="selectChoice('Spock')"></i>
+    </div>
+    <!--Displays result of game-->
+    <h2>Result</h2>
+    <div class="grid-container">
+        <div class="grid-item">Player:</div>
+        <div class="grid-item" id="playerResult"></div>
+        <div class="grid-item">Computer:</div>
+        <div class="grid-item" id="computerResult"></div>
+    </div>
+    <div id="finalResult"></div>
+    <!--Score board-->
+    <h2>Score</h2>
+    <div class="grid-container">
+        <div class="grid-item">Player Score:</div>
+        <div class="grid-item" id="overallPlayerTotal">0</div>
+        <div class="grid-item">Computer Score:</div>
+        <div class="grid-item" id="overallComputerTotal">0</div>
+        <div class="grid-item">Tie Score:</div>
+        <div class="grid-item" id="overallTieTotal">0</div>
+    </div>
 
     <script src="assets/js/index.js"></script>
     <!--Font awesome link-->
