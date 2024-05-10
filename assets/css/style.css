@@ -109,7 +109,7 @@ p {
 
 #rock, #plane, #scissors, #lizard, #spock {
     margin-bottom: 30px;
-    font-size: 12.5rem;
+    font-size: 5rem;
     cursor: pointer;
     max-width: 66%;
     text-align: center;
