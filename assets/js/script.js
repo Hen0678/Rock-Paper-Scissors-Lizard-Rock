@@ -1,11 +1,11 @@
 const choices = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
-const playerResult = document.getElementById("playerResult");
-const computerResult = document.getElementById("computerResult");
-const finalResult = document.getElementById("finalResult");
+const playerResult = document.getElementById("player-result");
+const computerResult = document.getElementById("computer-result");
+const finalResult = document.getElementById("final-result");
 // target the html with a preset of 0
-const currentPlayerScore = document.getElementById("currentPlayerScore");
-const currentComputerScore = document.getElementById("currentComputerScore");
-const currentTieScore = document.getElementById("currentTieScore");
+const overallPlayerTotal = document.getElementById("overall-player-total");
+const overallComputerTotal = document.getElementById("overall-computer-total");
+const overallTieTotal = document.getElementById("overall-tie-total");
 // start of game both player and computer have 0
 let playerScore = 0;
 let computerScore = 0;

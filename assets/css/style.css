@@ -12,7 +12,7 @@ body {
 
 }
 
-#homePage {
+#home-page {
     font-size: 3.5rem;
     margin-top: 10px;
     font-family: "Sedgwick Ave", sans-serif;
@@ -112,12 +112,12 @@ h2 {
     border-radius: 25%;
 }
 
-#playerResult, #computerResult {
+#player-result, #computer-result {
     font-size: 2rem;
     background-color: black;
 }    
 
-#finalResult {
+#final-result {
     font-size: 5rem;
     margin-top: 50px;
    
@@ -138,15 +138,15 @@ h2 {
     text-align: center;
   }
 
-.greenText, #overallPlayerTotal {
+.greenText, #overall-player-total {
     color: green;
     /* align-items: end; */
 }
 
-.redText, #overallComputerTotal {
+.redText, #overall-computer-total {
     color: red;
 }
 
-.whiteText, #overallTieTotal {
+.whiteText, #overall-tie-total {
     color: white;
 }
