@@ -20,13 +20,13 @@ body {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-top: auto;
     font-family: "Sedgwick Ave", sans-serif;
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Sedgwick Ave", sans-serif;
 }
 
@@ -42,6 +42,7 @@ p {
     padding: 2px;
 }
 
+/*
 #game-rules {
     max-width: 100%;
     margin-top: auto;
@@ -51,7 +52,7 @@ p {
     margin-bottom: 10px;
     margin-top: -15px;
 }
-
+*/
 .back-button {
     margin-left: 10px;
     margin-top: 5px;
@@ -123,7 +124,7 @@ p {
 }    
 
 #final-result {
-    font-size: 5rem;
+    font-size: 3rem;
     margin-top: 50px;
    
 }
