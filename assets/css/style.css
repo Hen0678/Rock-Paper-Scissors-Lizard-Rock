@@ -160,6 +160,7 @@ p {
 #test1 {
     background-color: black;
     border-radius: 10%;
+    margin:5px;
 }
 
 #rock1 {
