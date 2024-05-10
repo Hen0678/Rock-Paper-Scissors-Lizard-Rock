@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon-->
+    <!--Need to add search engine key words-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -13,21 +14,47 @@
 </head>
 
 <body>
-    <h1 id="home-page">Rock, Paper, Scissors, Lizard, Spock</h1>
-    <!--Homepage with buttons to instructions and game pages-->
+
+    <div class="back-button">
+        <a href="instructions.html">
+            <button type="button">Instructions</button>
+        </a>
+    </div>
+
+    <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+    <h2>Make your choice!</h2>
+
+    <!-- R,P,S,L,S game icons-->
     <div>
-        <a href="instructions.html" target="_blank">
-            <button class="button" type="button">Instructions</button>
-        </a>
-        <a href="game.html" target="_blank">
-            <button class="button" type="button">Play the Game!</button>
-        </a>
+        <i id="rock" class="fa-solid fa-hand-back-fist" onclick="selectChoice('Rock')"></i>
+        <i id="plane" class="fa-solid fa-hand" onclick="selectChoice('Paper')"></i>
+        <i id="scissors" class="fa-solid fa-hand-scissors" onclick="selectChoice('Scissors')"></i>
+        <i id="lizard" class="fa-solid fa-hand-lizard" onclick="selectChoice('Lizard')"></i>
+        <i id="spock" class="fa-solid fa-hand-spock" onclick="selectChoice('Spock')"></i>
+    </div>
+    <!--Displays result of game-->
+    <h2>Result</h2>
+    <div class="grid-container">
+        <div class="grid-item">Player:</div>
+        <div class="grid-item" id="player-result"></div>
+        <div class="grid-item">Computer:</div>
+        <div class="grid-item" id="computer-result"></div>
+    </div>
+    <div id="final-result"></div>
+    <!--Score board-->
+    <h2>Score</h2>
+    <div class="grid-container">
+        <div class="grid-item">Player Score:</div>
+        <div class="grid-item" id="overall-player-total">0</div>
+        <div class="grid-item">Computer Score:</div>
+        <div class="grid-item" id="overall-computer-total">0</div>
+        <div class="grid-item">Tie Score:</div>
+        <div class="grid-item" id="overall-tie-total">0</div>
     </div>
 
     <script src="assets/js/script.js"></script>
     <!--Font awesome link-->
     <script src="https://kit.fontawesome.com/3a6357e737.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>

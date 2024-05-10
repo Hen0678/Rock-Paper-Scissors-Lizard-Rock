@@ -16,7 +16,7 @@
     <!--Back button-->
     <div class="back-button">
         <a href="index.html">
-            <button type="button">Go back</button>
+            <button type="button">Back to game</button>
         </a>
     </div>
     <!--Game instructions-->
@@ -31,7 +31,9 @@
     </ul>
     </div> -->
     <!--Game image-->
+    <!--
     <div id="instructions">
+        
         <div><u>Rock</u>
             <ul>
                 <li>Rock blunts Scissors</li>
@@ -62,12 +64,47 @@
                 <li>Spock smashes Scissors</li>
             </ul>            
         </div>
-                          
+    -->                        
+<div id="test1">
+    <div>
+        <p>
+            <i id="rock1" class="fa-solid fa-hand-back-fist" onclick="selectChoice('Rock')"></i>
+            Rock blunts Scissors & Rock crushes Lizard</p>
     </div>
+    
+    <div>
+        <p> 
+            <i id ="paper1" class="fa-solid fa-hand" onclick="selectChoice('Paper')"></i>
+            Paper covers Rock & Paper disproves Spock</p>
+    </div>
+    
+    <div>
+        <p>
+        <i id="scissors1" class="fa-solid fa-hand-scissors" onclick="selectChoice('Scissors')"></i> 
+        Scissors cuts Paper & Scissors decapitates Lizard</p>
+    </div>
+    
+    <div>
+        <p>
+        <i id="lizard1" class="fa-solid fa-hand-lizard" onclick="selectChoice('Lizard')"></i>
+        Lizard eats Paper & Lizard poisons Spock</p>
+    </div>
+          
+    <div>
+        <p>
 
+        <i id="spock1" class="fa-solid fa-hand-spock" onclick="selectChoice('Spock')"></i> 
+            Spock vaporizes Rock & Spock smashes Scissors</p>
+    </div>
+</div>
+
+
+    <!--
     <div>
         <img id ="image-instructions" src="assets/images/r-p-s-l-s.png" alt="game-instructions">
     </div>
+    -->
+
 
     <script src="assets/js/script.js"></script>
     <!--Font awesome link-->

@@ -1,20 +1,25 @@
+// Below are all the constant that are required for the game
 const choices = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
 const playerResult = document.getElementById("player-result");
 const computerResult = document.getElementById("computer-result");
 const finalResult = document.getElementById("final-result");
-// target the html with a preset of 0
+
+// targets the html with a preset value of 0
 const overallPlayerTotal = document.getElementById("overall-player-total");
 const overallComputerTotal = document.getElementById("overall-computer-total");
 const overallTieTotal = document.getElementById("overall-tie-total");
-// start of game both player and computer have 0
+
+// start of game both player and computer have 0 
 let playerScore = 0;
 let computerScore = 0;
 let tieScore = 0;
 
 function selectChoice(playerChoice) {
-    // Creates a randon computer choice between 1-5 which correlates to rock, paper, scissors, Lizard or Spock    
+    /** Creates a randon computer choice between 1-5 which correlates to 
+     * rock, paper, scissors, Lizard or Spock    
+     */
     const computerChoice = choices[Math.floor(Math.random() * 5)];
-    // Result of the computer choice
+    // Result of the random computer choice
     let result = "";
 
     if (playerChoice === computerChoice) {
@@ -41,13 +46,19 @@ function selectChoice(playerChoice) {
 
         }
     }
-    // Display the player choice and computer choice
+    /** This displays the player choice and computer choice
+     * and lists the output in a table 
+     */
     playerResult.textContent = `${playerChoice}`;
     computerResult.textContent = `${computerChoice}`;
-    // Displays YOU WIN!, YOU LOSE! or IT'S A TIE
+    /** Displays the outcome of both choices
+     * which equates to YOU WIN!, YOU LOSE! or IT'S A TIE
+     */
     finalResult.textContent = result;
 
-    // Removes the green, red or white text when a new guess is selected
+    /** This will remove the green, red or white
+     * text when a new guess is selected 
+     */ 
     finalResult.classList.remove("greenText", "redText", "whiteText");
 
     switch (result) {
@@ -55,22 +66,24 @@ function selectChoice(playerChoice) {
             finalResult.classList.add("greenText");
             // Will add 1 to the player score
             playerScore++;
-            // Will display the player score
+            // Will display the overall player score
             overallPlayerTotal.textContent = playerScore;
             break;
         case "YOU LOSE!":
             finalResult.classList.add("redText");
             // Will add 1 to the computer score
             computerScore++;
-            // Will display the computer score
+            // Will display the overall computer score
             overallComputerTotal.textContent = computerScore;
             break;
         case "IT'S A TIE":
             finalResult.classList.add("whiteText");
             // Will add 1 to the tie score
             tieScore++;
-            // Will display the tie score
+            // Will display the overall tie score
             overallTieTotal.textContent = tieScore;
             break;
     }
 }
+
+
