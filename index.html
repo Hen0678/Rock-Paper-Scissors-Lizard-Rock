@@ -15,20 +15,18 @@
 
 <body>
 
-    <div class="back-button">
-        <a href="instructions.html">
-            <button type="button">Instructions</button>
-        </a>
-    </div>
-
     <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
     <h2>Make your choice!</h2>
     <!-- Reset button-->
-    <button id="reset" class="reset-btn">Restart Game</button>
-
+    <div>
+        <a href="instructions.html">
+    <button class="buttons">Instructions</button>
+    </a>
+    <button id="reset" class="buttons">Reset Score</button>
+    </div>
     <!-- R,P,S,L,S game icons-->
     <div id="game-area">
-        <i id="rock" class="fa-solid fa-hand-back-fist" onclick="selectChoice('Rock')et-btn"></i>
+        <i id="rock" class="fa-solid fa-hand-back-fist" onclick="selectChoice('Rock')"></i>
         <i id="plane" class="fa-solid fa-hand" onclick="selectChoice('Paper')"></i>
         <i id="scissors" class="fa-solid fa-hand-scissors" onclick="selectChoice('Scissors')"></i>
         <i id="lizard" class="fa-solid fa-hand-lizard" onclick="selectChoice('Lizard')"></i>

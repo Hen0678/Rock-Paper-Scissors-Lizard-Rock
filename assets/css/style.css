@@ -23,6 +23,8 @@ h1 {
     font-size: 3rem;
     font-family: "Sedgwick Ave", sans-serif;
     text-align: center;
+    text-decoration: underline;
+    margin-bottom: -5px;
 }
 
 h2 {
@@ -35,38 +37,24 @@ p {
     font-family: "Sedgwick Ave", sans-serif; 
 }
 
-#instructions {
-    background-color: black;
-    text-align: center;
-    display: flex;
-    padding: 2px;
+.buttons {
+    background-color: goldenrod;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 20px 20px;
+    border-radius: 10%;
+    margin: 0 20px;
+
 }
 
-/*
-#game-rules {
-    max-width: 100%;
-    margin-top: auto;
-    background-color: black;
-    font-family: arial, sans-serif;
-    padding: 5px;
-    margin-bottom: 10px;
-    margin-top: -15px;
-}
-*/
 .back-button {
     margin-left: 10px;
     margin-top: 5px;
     width: 100%;
 }
 
-#image-instructions {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-
-  .button {
+.button {
     background-color: black;
     color: pink; 
     width: 400px;
@@ -85,7 +73,7 @@ p {
 
 #game-area {
     text-align: center;
-    padding: 70px 5px;
+    padding: 30px 5px 0px;
 }
 
 #rock {
@@ -114,7 +102,6 @@ p {
 }
 
 #rock, #plane, #scissors, #lizard, #spock {
-    /*margin-bottom: 30px; */
     font-size: 5rem;
     cursor: pointer;
     max-width: 66%;
@@ -130,7 +117,7 @@ p {
 
 #final-result {
     font-size: 3rem;
-    margin-top: 50px;
+    margin-top: 20px;
    
 }
 
@@ -152,7 +139,6 @@ p {
 
 .greenText, #overall-player-total {
     color: green;
-    /* align-items: end; */
 }
 
 .redText, #overall-computer-total {
@@ -163,10 +149,10 @@ p {
     color: white;
 }
 
-#test1 {
+#instructions {
     background-color: black;
     border-radius: 10%;
-    margin:5px;
+    margin:15px;
 }
 
 #rock1 {
