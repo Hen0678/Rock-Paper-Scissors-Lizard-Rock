@@ -1,4 +1,3 @@
-// Below are all the constant that are required for the game
 const choices = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
 const playerResult = document.getElementById("player-result");
 const computerResult = document.getElementById("computer-result");
@@ -55,10 +54,9 @@ function selectChoice(playerChoice) {
      * which equates to YOU WIN!, YOU LOSE! or IT'S A TIE
      */
     finalResult.textContent = result;
-
     /** This will remove the green, red or white
      * text when a new guess is selected 
-     */ 
+     */
     finalResult.classList.remove("greenText", "redText", "whiteText");
 
     switch (result) {
@@ -86,4 +84,22 @@ function selectChoice(playerChoice) {
     }
 }
 
+// restart!!! //
+const reset = document.getElementById('reset');
 
+// Restart game!!!!
+function resetGame() {
+    playerScore = 0;
+    computerScore = 0;
+    tieScore = 0;
+    overallPlayerTotal.innerHTML = `
+    0`
+    overallComputerTotal.innerHTML = `
+    0`
+    overallTieTotal.innerHTML = `
+    0`
+
+}
+
+// Restart button to clear game!!!
+reset.addEventListener('click', resetGame);
