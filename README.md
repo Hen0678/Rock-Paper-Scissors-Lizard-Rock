@@ -75,11 +75,6 @@ The following technologies were used for this site:
 
 ## Testing
 
-### Bugs
-|Bug|Description|Solution applied|Result|
-|:----|:----|:----|:----|
-|Results table not displaying correctly|The results table shows the score below the player / computer and not to the right|Additional Div element required |Now displaying correctly|
-
 ### Browser Compatibility
 |Browser Tested|Intended Appearance|Test Outcome|
 |:----|:----|:----|
@@ -117,7 +112,7 @@ The following technologies were used for this site:
 ### Bugs
 |Bug|Description|Solution applied|Result|
 |:----|:----|:----|:----|
-|TBC|TBC|TBC|TBC|
+|Results table not displaying correctly|The results table shows the score below the player / computer and not to the right|Additional Div element required |Now displaying correctly|
 
 ### Lighthouse Testing
 |View Tested|Outcome of the audit|Solution applied|Screenshot of clear Validator output|
@@ -127,7 +122,6 @@ The following technologies were used for this site:
 |I-Pad Mini|TBC|TBC|TBC|
 |Laptop 1440px|TBC|TBC|TBC|
 |4k 2560px|TBC|TBC|TBC|
-
 
 ## Deployment 
 ### Deploying the site
@@ -149,7 +143,7 @@ After creating the website in GitPod, the site was deployed to GitHub to host. T
 ## Credits
 
 ### Code
-* Bro Code - used for Javascript inspiration
+* Bro Code - used for Javascript inspiration.
 
 ### Images
 Images have been accumulated form the following sites:
