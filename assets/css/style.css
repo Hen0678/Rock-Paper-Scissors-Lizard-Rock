@@ -45,6 +45,13 @@ p {
     padding: 20px 20px;
     border-radius: 10%;
     margin: 0 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.buttons:hover {
+    background-color: #04AA6D;
+    transition-duration: 0.4s;
 
 }
 
@@ -108,6 +115,31 @@ p {
     text-align: center;
     background-color: black;
     border-radius: 25%;
+}
+
+#rock:hover {
+    background-color: #04AA6D;
+    transition-duration: 0.4s;
+} 
+
+#plane:hover {
+    background-color: #04AA6D;
+    transition-duration: 0.4s;
+}
+
+#scissors:hover {
+    background-color: #04AA6D;
+    transition-duration: 0.4s;
+}
+
+#lizard:hover {
+    background-color: #04AA6D;
+    transition-duration: 0.4s;
+}
+
+#spock:hover {
+    background-color: #04AA6D;
+    transition-duration: 0.4s;
 }
 
 #player-result, #computer-result {
