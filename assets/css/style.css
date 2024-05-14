@@ -68,7 +68,7 @@ p {
     padding: 10px;
 }
 
-#plane {
+#paper {
     color: blue;
     padding: 10px;
 }
@@ -89,7 +89,7 @@ p {
 }
 
 #rock,
-#plane,
+#paper,
 #scissors,
 #lizard,
 #spock {
@@ -106,7 +106,7 @@ p {
     transition-duration: 0.4s;
 }
 
-#plane:hover {
+#paper:hover {
     background-color: #04AA6D;
     transition-duration: 0.4s;
 }
