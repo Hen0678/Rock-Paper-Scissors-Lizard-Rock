@@ -1,4 +1,4 @@
-const choices = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
+const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 const playerResult = document.getElementById("player-result");
 const computerResult = document.getElementById("computer-result");
 const finalResult = document.getElementById("final-result");
@@ -13,6 +13,17 @@ let playerScore = 0;
 let computerScore = 0;
 let tieScore = 0;
 
+const characterIcons = document.querySelectorAll("#game-area > .fa-solid")
+
+for (let characterIcon of characterIcons) {
+    characterIcon.addEventListener(
+        'click',
+        () => {
+            selectChoice(characterIcon.id)
+        }
+    )
+}
+
 function selectChoice(playerChoice) {
     /** Creates a randon computer choice between 1-5 which correlates to 
      * rock, paper, scissors, Lizard or Spock    
@@ -26,25 +37,25 @@ function selectChoice(playerChoice) {
     } else {
         // switch can be used instead of multiple if statements
         switch (playerChoice) {
-            case "Rock":
-                result = (computerChoice == "Scissors" || computerChoice == "Lizard") //
+            case "rock":
+                result = (computerChoice == "scissors" || computerChoice == "lizard") //
                 ? "YOU WIN!" : "YOU LOSE!"
                 // break terminates the loop
                 break;
-            case "Paper":
-                result = (computerChoice === "Rock" || computerChoice == "Spock") //
+            case "paper":
+                result = (computerChoice === "rock" || computerChoice == "spock") //
                 ? "YOU WIN!" : "YOU LOSE!"
                 break;
-            case "Scissors":
-                result = (computerChoice == "Paper" || computerChoice == "Lizard") //
+            case "scissors":
+                result = (computerChoice == "paper" || computerChoice == "lizard") //
                 ? "YOU WIN!" : "YOU LOSE!"
                 break;
-            case "Lizard":
-                result = (computerChoice == "Paper" || computerChoice == "Spock") //
+            case "lizard":
+                result = (computerChoice == "paper" || computerChoice == "spock") //
                 ? "YOU WIN!" : "YOU LOSE!"
                 break;
-            case "Spock":
-                result = (computerChoice == "Scissors" || computerChoice == "Rock") //
+            case "spock":
+                result = (computerChoice == "scissors" || computerChoice == "rock") //
                 ? "YOU WIN!" : "YOU LOSE!"
                 break;
 
