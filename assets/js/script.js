@@ -84,10 +84,10 @@ function selectChoice(playerChoice) {
     }
 }
 
-// restart!!! //
-const reset = document.getElementById('reset');
+// restart variable 
+//const reset = document.getElementById('reset'); 
 
-// Restart game!!!!
+// Restart game function
 function resetGame() {
     playerScore = 0;
     computerScore = 0;
@@ -101,5 +101,5 @@ function resetGame() {
 
 }
 
-// Restart button to clear game!!!
+// Restart button to clear game
 reset.addEventListener('click', resetGame);

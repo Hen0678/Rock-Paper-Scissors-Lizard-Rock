@@ -34,7 +34,7 @@ h2 {
 
 p {
     font-size: 1.5rem;
-    font-family: "Sedgwick Ave", sans-serif; 
+    font-family: "Sedgwick Ave", sans-serif;
 }
 
 .buttons {
@@ -53,29 +53,6 @@ p {
     background-color: #04AA6D;
     transition-duration: 0.4s;
 
-}
-
-.back-button {
-    margin-left: 10px;
-    margin-top: 5px;
-    width: 100%;
-}
-
-.button {
-    background-color: black;
-    color: pink; 
-    width: 400px;
-    height: 200px;
-    font-size: 50px;
-    display: flex;
-    flex-direction: row; 
-    text-align: center;  
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10%; 
-    margin-top: 10%;
-    display: block;
-    border-radius: 25%;   
 }
 
 #game-area {
@@ -108,7 +85,11 @@ p {
     padding: 10px;
 }
 
-#rock, #plane, #scissors, #lizard, #spock {
+#rock,
+#plane,
+#scissors,
+#lizard,
+#spock {
     font-size: 5rem;
     cursor: pointer;
     max-width: 66%;
@@ -120,7 +101,7 @@ p {
 #rock:hover {
     background-color: #04AA6D;
     transition-duration: 0.4s;
-} 
+}
 
 #plane:hover {
     background-color: #04AA6D;
@@ -142,15 +123,16 @@ p {
     transition-duration: 0.4s;
 }
 
-#player-result, #computer-result {
+#player-result,
+#computer-result {
     font-size: 2rem;
     background-color: black;
-}    
+}
 
 #final-result {
     font-size: 3rem;
     margin-top: 20px;
-   
+
 }
 
 .grid-container {
@@ -161,57 +143,60 @@ p {
     margin-bottom: 10px;
 }
 
-  .grid-item {
+.grid-item {
     background-color: black;
     border: 1px solid white;
     padding: 20px;
     font-size: 30px;
     text-align: center;
-  }
+}
 
-.greenText, #overall-player-total {
+.greenText,
+#overall-player-total {
     color: green;
 }
 
-.redText, #overall-computer-total {
+.redText,
+#overall-computer-total {
     color: red;
 }
 
-.whiteText, #overall-tie-total {
+.whiteText,
+#overall-tie-total {
     color: white;
 }
 
 #instructions {
     background-color: black;
     border-radius: 10%;
-    margin:15px;
+    margin: 15px;
 }
 
-#rock1 {
+#rock-icon {
     color: orange;
     font-size: 2rem;
     padding: 10px;
 }
 
-#paper1 {
+#paper-icon {
     color: blue;
     font-size: 2rem;
     padding: 10px;
 }
 
-#scissors1 {
+#scissors-icon {
     color: silver;
     font-size: 2rem;
     padding: 10px;
 }
 
-#lizard1 {
+#lizard-icon {
     color: green;
     font-size: 2rem;
     padding: 10px;
 }
 
-#spock1 {
+#spock-icon {
     color: red;
     font-size: 2rem;
     padding: 10px;
