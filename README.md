@@ -93,7 +93,7 @@ The following technologies were used for this site:
 ![edge-test](assets/media/safari-test.png)
 
 ### Responsiveness Testing
-|Device Tested|Site Responsive <699px|Site Responsive >=700px|Test Outcome|
+|Device Tested|Site Responsive >320px - <699px|Site Responsive >=700px|Test Outcome|
 |:----|:----|:----|:----|
 |I-phone 13|Yes|N/A|Pass|
 |I-phone 5|Yes|N/A|Pass|
