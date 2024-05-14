@@ -104,10 +104,10 @@ The following technologies were used for this site:
 ### Code validation
 |Page Tested|Screenshot of Errors|Solution Applied|Screenshot of Clear Validator Output|Test Outcome|
 |:----|:----|:----|:----|:----|
-|Home-HTML|TBC|TBC|TBC|TBC|
-|Instructions-HTML|TBC|TBC|TBC|TBC|
-|CSS|TBC|TBC|TBC|TBC|
-|Javascript|TBC|TBC|TBC|TBC|
+|Home-HTML|![index.html-validation-test](assets/media/index.html-initial-test.png)|TBC|TBC|TBC|
+|Instructions-HTML|![instructions.html-validation-test](assets/media/instructions.html-initial-test.png)|TBC|TBC|TBC|
+|CSS|![css-validation-test](assets/media/css-initial-test.png)|N/A|N/A|Pass|
+|Javascript|![js-validation-test](assets/media/js-initial-test.png)|One warning but will keep the code as is|N/A|Pass|
 
 ### Bugs
 |Bug|Description|Solution applied|Result|

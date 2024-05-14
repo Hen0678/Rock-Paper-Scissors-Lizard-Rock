@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 const playerResult = document.getElementById("player-result");
 const computerResult = document.getElementById("computer-result");
@@ -11,15 +12,15 @@ let playerScore = 0;
 let computerScore = 0;
 let tieScore = 0;
 // Variable for all game choices
-const characterIcons = document.querySelectorAll("#game-area > .fa-solid")
+const characterIcons = document.querySelectorAll("#game-area > .fa-solid");
 
 for (let characterIcon of characterIcons) {
     characterIcon.addEventListener(
         'click',
         () => {
-            selectChoice(characterIcon.id)
+            selectChoice(characterIcon.id);
         }
-    )
+    );
 }
 
 function selectChoice(playerChoice) {
@@ -35,30 +36,25 @@ function selectChoice(playerChoice) {
         // switch can be used instead of multiple if statements
         switch (playerChoice) {
             case "rock":
-                result = (computerChoice == "scissors" || computerChoice == "lizard") //
-                    ?
-                    "YOU WIN!" : "YOU LOSE!"
+                result = (computerChoice == "scissors" || computerChoice == "lizard") ? //
+                    "YOU WIN!" : "YOU LOSE!";
                 // break terminates the loop
                 break;
             case "paper":
-                result = (computerChoice === "rock" || computerChoice == "spock") //
-                    ?
-                    "YOU WIN!" : "YOU LOSE!"
+                result = (computerChoice === "rock" || computerChoice == "spock") ? //
+                    "YOU WIN!" : "YOU LOSE!";
                 break;
             case "scissors":
-                result = (computerChoice == "paper" || computerChoice == "lizard") //
-                    ?
-                    "YOU WIN!" : "YOU LOSE!"
+                result = (computerChoice == "paper" || computerChoice == "lizard") ? //
+                    "YOU WIN!" : "YOU LOSE!";
                 break;
             case "lizard":
-                result = (computerChoice == "paper" || computerChoice == "spock") //
-                    ?
-                    "YOU WIN!" : "YOU LOSE!"
+                result = (computerChoice == "paper" || computerChoice == "spock") ? //
+                    "YOU WIN!" : "YOU LOSE!";
                 break;
             case "spock":
-                result = (computerChoice == "scissors" || computerChoice == "rock") //
-                    ?
-                    "YOU WIN!" : "YOU LOSE!"
+                result = (computerChoice == "scissors" || computerChoice == "rock") ? //
+                    "YOU WIN!" : "YOU LOSE!";
                 break;
 
         }
@@ -101,17 +97,20 @@ function selectChoice(playerChoice) {
             break;
     }
 }
+
+const reset = document.getElementById('reset'); 
+
 // Restart game function
 function resetGame() {
     playerScore = 0;
     computerScore = 0;
     tieScore = 0;
     overallPlayerTotal.innerHTML = `
-    0`
+    0`;
     overallComputerTotal.innerHTML = `
-    0`
+    0`;
     overallTieTotal.innerHTML = `
-    0`
+    0`;
 }
 // Restart button to clear game
 reset.addEventListener('click', resetGame);
