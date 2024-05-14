@@ -12,13 +12,6 @@ body {
 
 }
 
-#home-page {
-    font-size: 3.5rem;
-    margin-top: 10px;
-    font-family: "Sedgwick Ave", sans-serif;
-
-}
-
 h1 {
     font-size: 3rem;
     font-family: "Sedgwick Ave", sans-serif;
@@ -49,7 +42,7 @@ p {
     cursor: pointer;
     transition-duration: 0.4s;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 .buttons:hover {
@@ -144,7 +137,7 @@ p {
     background-color: white;
     padding: 5px;
     margin-bottom: 10px;
-    width: 335px; 
+    width: 335px;
 }
 
 .grid-item {
