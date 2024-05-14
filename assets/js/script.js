@@ -27,20 +27,25 @@ function selectChoice(playerChoice) {
         // switch can be used instead of multiple if statements
         switch (playerChoice) {
             case "Rock":
-                result = (computerChoice == "Scissors" || computerChoice == "Lizard") ? "YOU WIN!" : "YOU LOSE!"
+                result = (computerChoice == "Scissors" || computerChoice == "Lizard") //
+                ? "YOU WIN!" : "YOU LOSE!"
                 // break terminates the loop
                 break;
             case "Paper":
-                result = (computerChoice === "Rock" || computerChoice == "Spock") ? "YOU WIN!" : "YOU LOSE!"
+                result = (computerChoice === "Rock" || computerChoice == "Spock") //
+                ? "YOU WIN!" : "YOU LOSE!"
                 break;
             case "Scissors":
-                result = (computerChoice == "Paper" || computerChoice == "Lizard") ? "YOU WIN!" : "YOU LOSE!"
+                result = (computerChoice == "Paper" || computerChoice == "Lizard") //
+                ? "YOU WIN!" : "YOU LOSE!"
                 break;
             case "Lizard":
-                result = (computerChoice == "Paper" || computerChoice == "Spock") ? "YOU WIN!" : "YOU LOSE!"
+                result = (computerChoice == "Paper" || computerChoice == "Spock") //
+                ? "YOU WIN!" : "YOU LOSE!"
                 break;
             case "Spock":
-                result = (computerChoice == "Scissors" || computerChoice == "Rock") ? "YOU WIN!" : "YOU LOSE!"
+                result = (computerChoice == "Scissors" || computerChoice == "Rock") //
+                ? "YOU WIN!" : "YOU LOSE!"
                 break;
 
         }
