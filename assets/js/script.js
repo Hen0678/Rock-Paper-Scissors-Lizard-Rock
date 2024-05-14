@@ -57,25 +57,25 @@ function selectChoice(playerChoice) {
     /** This will remove the green, red or white
      * text when a new guess is selected 
      */
-    finalResult.classList.remove("greenText", "redText", "whiteText");
+    finalResult.classList.remove("green-text", "red-text", "white-text");
 
     switch (result) {
         case "YOU WIN!":
-            finalResult.classList.add("greenText");
+            finalResult.classList.add("green-text");
             // Will add 1 to the player score
             playerScore++;
             // Will display the overall player score
             overallPlayerTotal.textContent = playerScore;
             break;
         case "YOU LOSE!":
-            finalResult.classList.add("redText");
+            finalResult.classList.add("red-text");
             // Will add 1 to the computer score
             computerScore++;
             // Will display the overall computer score
             overallComputerTotal.textContent = computerScore;
             break;
         case "IT'S A TIE":
-            finalResult.classList.add("whiteText");
+            finalResult.classList.add("white-text");
             // Will add 1 to the tie score
             tieScore++;
             // Will display the overall tie score

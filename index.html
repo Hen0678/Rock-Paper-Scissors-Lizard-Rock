@@ -16,43 +16,51 @@
 </head>
 
 <body>
-
     <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
-    <h2>Make your choice!</h2>
-    <!-- Reset button-->
-    <div>
-        <a href="instructions.html">
-    <button class="buttons">Instructions</button>
-    </a>
-    <button id="reset" class="buttons">Reset Score</button>
-    </div>
-    <!-- R,P,S,L,S game icons-->
-    <div id="game-area">
-        <i id="rock" class="fa-solid fa-hand-back-fist" onclick="selectChoice('Rock')"></i>
-        <i id="plane" class="fa-solid fa-hand" onclick="selectChoice('Paper')"></i>
-        <i id="scissors" class="fa-solid fa-hand-scissors" onclick="selectChoice('Scissors')"></i>
-        <i id="lizard" class="fa-solid fa-hand-lizard" onclick="selectChoice('Lizard')"></i>
-        <i id="spock" class="fa-solid fa-hand-spock" onclick="selectChoice('Spock')"></i>
-    </div>
+
+    <section>
+        <h2>Make your choice!</h2>
+        <div>
+            <a href="instructions.html">
+                <button class="buttons">Instructions</button>
+            </a>
+            <!--Reset button-->
+            <button id="reset" class="buttons">Reset Score</button>
+        </div>
+        <!-- R,P,S,L,S game icons-->
+        <div id="game-area">
+            <i id="rock" class="fa-solid fa-hand-back-fist" onclick="selectChoice('Rock')"></i>
+            <i id="plane" class="fa-solid fa-hand" onclick="selectChoice('Paper')"></i>
+            <i id="scissors" class="fa-solid fa-hand-scissors" onclick="selectChoice('Scissors')"></i>
+            <i id="lizard" class="fa-solid fa-hand-lizard" onclick="selectChoice('Lizard')"></i>
+            <i id="spock" class="fa-solid fa-hand-spock" onclick="selectChoice('Spock')"></i>
+        </div>
+    </section>
+
     <!--Displays result of game-->
-    <h2>Result</h2>
-    <div class="grid-container">
-        <div class="grid-item">Player:</div>
-        <div class="grid-item" id="player-result"></div>
-        <div class="grid-item">Computer:</div>
-        <div class="grid-item" id="computer-result"></div>
-    </div>
-    <div id="final-result"></div>
+    <section>
+        <h2>Result</h2>
+        <div class="grid-container">
+            <div class="grid-item">Player:</div>
+            <div class="grid-item" id="player-result"></div>
+            <div class="grid-item">Computer:</div>
+            <div class="grid-item" id="computer-result"></div>
+        </div>
+        <div id="final-result"></div>
+    </section>
+
     <!--Score board-->
-    <h2>Score</h2>
-    <div class="grid-container">
-        <div class="grid-item">Player Score:</div>
-        <div class="grid-item" id="overall-player-total">0</div>
-        <div class="grid-item">Computer Score:</div>
-        <div class="grid-item" id="overall-computer-total">0</div>
-        <div class="grid-item">Tie Score:</div>
-        <div class="grid-item" id="overall-tie-total">0</div>
-    </div>
+    <section>
+        <h2>Score</h2>
+        <div class="grid-container">
+            <div class="grid-item">Player Score:</div>
+            <div class="grid-item" id="overall-player-total">0</div>
+            <div class="grid-item">Computer Score:</div>
+            <div class="grid-item" id="overall-computer-total">0</div>
+            <div class="grid-item">Tie Score:</div>
+            <div class="grid-item" id="overall-tie-total">0</div>
+        </div>
+    </section>
 
     <script src="assets/js/script.js"></script>
     <!--Font awesome link-->
