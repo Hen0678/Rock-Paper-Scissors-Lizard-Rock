@@ -104,8 +104,8 @@ The following technologies were used for this site:
 ### Code validation
 |Page Tested|Screenshot of Errors|Solution Applied|Screenshot of Clear Validator Output|Test Outcome|
 |:----|:----|:----|:----|:----|
-|Home-HTML|![index.html-validation-test](assets/media/index.html-initial-test.png)|TBC|TBC|TBC|
-|Instructions-HTML|![instructions.html-validation-test](assets/media/instructions.html-initial-test.png)|TBC|TBC|TBC|
+|Home-HTML|![index.html-validation-test](assets/media/index.html-initial-test.png)|Removed anchor element in index.html and replace with onclick|![index.html-retest](assets/media/index.html-retest.png)|Pass|
+|Instructions-HTML|![instructions.html-validation-test](assets/media/instructions.html-initial-test.png)|Removed anchor element in instructions.html and replace with onclick|![instructions.html-retest](assets/media/instructions.html-retest.png)|Pass|
 |CSS|![css-validation-test](assets/media/css-initial-test.png)|N/A|N/A|Pass|
 |Javascript|![js-validation-test](assets/media/js-initial-test.png)|One warning but will keep the code as is|N/A|Pass|
 
@@ -117,11 +117,11 @@ The following technologies were used for this site:
 ### Lighthouse Testing
 |View Tested|Outcome of the audit|Solution applied|Screenshot of clear Validator output|
 |:----|:----|:----|:----|
-|I-Phone 13|TBC|TBC|TBC|
-|I-Phone 5|TBC|TBC|TBC|
-|I-Pad Mini|TBC|TBC|TBC|
-|Laptop 1440px|TBC|TBC|TBC|
-|4k 2560px|TBC|TBC|TBC|
+|390 x 844|![390x844-lighthouse-test](assets/media/390x844-lighthouse-test.png)|N/A|N/A|
+|I-Phone 5|![i-phone-5-lighthouse-test](assets/media/i-phone-5-lighthouse-test.png)|N/A|N/A|
+|I-Pad Mini|![i-phone-mini-lighthouse-test](assets/media/i-phone-mini-lighthouse-test.png)|N/A|N/A|
+|Laptop 1440px|![laptop-1440px-lighthouse-test](assets/media/laptop-1440px-lighthouse-test.png)|N/A|N/A|
+|4k 2560px|![4k-2560px-lighthouse-test](assets/media/4k-2560px-lighthouse-test.png)|N/A|N/A|
 
 ## Deployment 
 ### Deploying the site
