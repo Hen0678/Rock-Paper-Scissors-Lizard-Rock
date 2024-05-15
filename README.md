@@ -31,19 +31,19 @@ As a user of this site, I want to:
 
 ### Main page 
 
-* From the home page you can go straight into playing the game. Alternatively, you can go to the instructions page and from the instructions page you can head straight back to the game page. At any stage the score can be reset so you are not forced to play a best of 3, best of 5 etc. The amount of games the user plays is entirley upto them.
+* From the home page you can go straight into playing the game. Alternatively, you can go to the instructions page and from the instructions page you can head straight back to the game page. At any stage, the score can be reset so you are not forced to play a best of three, best of five etc. The number of games the user plays is entirely up to them.
 
 ![main-page](assets/media/main-page.png)
 
-* The choice icons are all hand symbols each with a different colour. The image background provides a retro looking computer game feel and the text is a funky pink colour as this game should be fun to play.
+* The choice icons are all hand symbols each with a distinct colour. The image background provides a retro looking computer game feel, and the text is a funky pink colour as this game should be fun to play.
 
 ![choice-options](assets/media/choice-options.png)
 
-* When the player makes a choice the computer will also make a random choice and the result will be displayed. 
+* When the player makes a choice, the computer will also make a random choice and the result will be displayed. 
 
 ![results](assets/media/results.png)
 
-* There is a game scoreboard which will track games won, lost and tied.
+* There is a game scoreboard which will track games won, lost, and tied.
 
 ![score](assets/media/score.png)
 
@@ -52,9 +52,9 @@ As a user of this site, I want to:
 ![instructions](assets/media/instructions.png)
 
 ### Additional features to include 
-The list of additional features to be added at a later date include:
+The list of additional features to be added later include:
 
-* Options to play a set amount of games.
+* Options to play a set number of games.
 * For icons rather than text to show under the Results section
 
 ## Technologies used
@@ -71,7 +71,7 @@ The following technologies were used for this site:
 * [Am I responsive?](https://ui.dev/amiresponsive?url=https://hen0678.github.io/Rock-Paper-Scissors-Lizard-Spock/) - used for checking the look on different size devices.
 * GitPod was used for coding the site and version control.
 * GitHub as the repository for the projects code.
-* Lighthouse in Chrome dev tools
+* Lighthouse in Chrome dev tools for accessibility testing.
 
 ## Testing
 
