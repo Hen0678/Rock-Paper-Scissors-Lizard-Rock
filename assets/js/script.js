@@ -25,7 +25,6 @@ for (let characterIcon of characterIcons) {
 
 function selectChoice(playerChoice) {
     // Creates a randon computer choice 
-
     const computerChoice = choices[Math.floor(Math.random() * 5)];
     // Result of the random computer choice
     let result = "";
@@ -97,9 +96,7 @@ function selectChoice(playerChoice) {
             break;
     }
 }
-
-const reset = document.getElementById('reset'); 
-
+const reset = document.getElementById('reset');
 // Restart game function
 function resetGame() {
     playerScore = 0;
