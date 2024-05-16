@@ -153,14 +153,21 @@ After creating the website in GitPod, the site was deployed to GitHub to host. T
 
 ### Code
 * Bro Code - used for Javascript inspiration.
+* Traversy - help with the reset button in Javascript.
 
-### Images
+### Images and icons
 Images have been accumulated form the following sites:
 * [Fontawesome](https://fontawesome.com) - used for the game choice icons.
-* Background image - "Designed by coolvector / Freepik"
+* [Google Fonts](https://hen0678.github.io/Rock-Paper-Scissors-Lizard-Spock/index.html) - used to import the 'Sedgwick Ave' font into the style.css file.
+* [Flaticon](https://www.flaticon.com/free-icons/rock-paper-scissors) - used for the Favicon icons.  
+* [Favicon.zip](https://favicon.zip/?ref=producthunt) - used to generate the Favicon icons.
+* [Freepik](http://www.freepik.com) - used for the background image.
+* [Am I responsive?](https://ui.dev/amiresponsive?url=https://hen0678.github.io/Rock-Paper-Scissors-Lizard-Spock/) - used for checking the look on different size devices.
 
 ### Other acknowledgments
 * Brian Macharia for mentor support and advice.
+
+
 
 
 

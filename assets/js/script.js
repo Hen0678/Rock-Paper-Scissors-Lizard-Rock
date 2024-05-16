@@ -22,13 +22,12 @@ for (let characterIcon of characterIcons) {
         }
     );
 }
-
 function selectChoice(playerChoice) {
     // Creates a randon computer choice 
     const computerChoice = choices[Math.floor(Math.random() * 5)];
     // Result of the random computer choice
     let result = "";
-
+    // Bro Code tutorial used to help with the simplified if else code layout
     if (playerChoice === computerChoice) {
         result = "IT'S A TIE";
     } else {
