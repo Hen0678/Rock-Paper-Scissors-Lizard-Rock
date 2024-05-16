@@ -75,6 +75,15 @@ The following technologies were used for this site:
 
 ## Testing
 
+###
+|Features|Test Conducted|Expected Outcome|Test Outcome|
+|:----|:----|:----|:----|
+|Game playability on laptop|Playing the game on a laptop selecting all choice options|All choice options to be displayed and the right outcome produced|Pass|
+|Game playability on mobile|Playing the game on a mobile device selecting all choice options|All choice options to be displayed and the right outcome produced|Pass|
+|Scoreboard|Checked that this functioned correctly on laptop and mobile|The scores to be incremented after each selection is made|Pass|
+|Reset button|Checked this resets the scores on both laptop and mobile|All scores to be reset to 0|Pass|
+|Instructions page|Checked this displayed on both laptop and mobile|Instructions page to open and look good|Pass|
+
 ### Browser Compatibility
 |Browser Tested|Intended Appearance|Test Outcome|
 |:----|:----|:----|
